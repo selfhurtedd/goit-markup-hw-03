@@ -11,12 +11,16 @@
   font-size: 18px;
   line-height: 1.33333;
   margin-right: 76px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .nav-link:hover {
   color: #404bbf;
@@ -29,6 +33,8 @@
   color: #434455;
   text-decoration: none;
   font-style: normal;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .address-link:hover {
   color: #404bbf;
@@ -39,20 +45,18 @@
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .gap-nav {
   display: flex;
-  padding-bottom: 24px;
-  padding-top: 24px;
   gap: 40px;
 }
 .gap-address {
   display: flex;
-  padding-bottom: 24px;
-  padding-top: 24px;
   gap: 40px;
 }
 .header-margin {
   margin-left: auto;
+}
+.post-header {
+  border-bottom: 1px solid #e7e9fc;
 }
