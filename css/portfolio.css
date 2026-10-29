@@ -13,11 +13,13 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   letter-spacing: 0.02em;
 }
 .container-portfolio {
+  display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
@@ -25,6 +27,7 @@
   padding-left: 16px;
   padding-bottom: 32px;
   padding-top: 32px;
+  padding-right: 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;

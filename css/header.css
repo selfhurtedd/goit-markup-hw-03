@@ -39,16 +39,20 @@
 .header-container {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
-  padding-top: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .gap-nav {
+  display: flex;
+  padding-bottom: 24px;
+  padding-top: 24px;
   gap: 40px;
 }
 .gap-address {
+  display: flex;
+  padding-bottom: 24px;
+  padding-top: 24px;
   gap: 40px;
 }
-address {
+.header-margin {
   margin-left: auto;
 }

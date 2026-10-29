@@ -5,7 +5,6 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin: 0 auto;
   margin-bottom: 72px;
 }
 .team-title-3 {
@@ -16,7 +15,6 @@
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 .team-text {
   text-align: center;
@@ -27,7 +25,13 @@
   background-color: #f4f4fd;
 }
 .team-cards {
+  gap: 24px;
+  display: flex;
+}
+.team-text-block {
+  padding: 32px 16px;
+}
+.team-border {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
-  gap: 24px;
 }

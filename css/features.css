@@ -11,5 +11,8 @@
   color: #434455;
 }
 .features-gap {
+  display: flex;
   gap: 24px;
+  width: 264px;
+  width: 100%;
 }
