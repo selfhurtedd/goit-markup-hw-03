@@ -10,6 +10,7 @@
   color: #2e2f42;
   font-size: 18px;
   line-height: 1.33333;
+  margin-right: 76px;
 }
 .nav-link {
   font-weight: 500;
@@ -34,4 +35,20 @@
 }
 .address-link:focus {
   color: #404bbf;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.gap-nav {
+  gap: 40px;
+}
+.gap-address {
+  gap: 40px;
+}
+address {
+  margin-left: auto;
 }

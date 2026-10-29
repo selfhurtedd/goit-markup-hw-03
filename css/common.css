@@ -24,8 +24,33 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  display: flex;
 }
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
