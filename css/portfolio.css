@@ -1,4 +1,4 @@
-.portfolio-title-2 {
+.portfolio-title-big {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -7,7 +7,7 @@
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.portfolio-title-3 {
+.portfolio-title-small {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
